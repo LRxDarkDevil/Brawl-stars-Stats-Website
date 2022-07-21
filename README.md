@@ -1,6 +1,7 @@
 # Brawl-stars-Stats-Website
 Here you can search anyones profile by tag  
 How to Use it?  
+Install NodeJS if you have not already installed  
 Install it  
 Go console and type npm install  
 then type node server.js  
