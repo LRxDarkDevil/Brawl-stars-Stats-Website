@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>
+    Search your Brawler ID
+   </h2>
+    <span>#</span><input type="text" placeholder="Enter Your Tag..." id="tag"> 
+    <button onclick="myFunction()">Search</button>
+    <br>
+    <p style="color: red; display: inline;">Warning: </p><p style="color: darkred; display: inline;">If you enter wrong tag your program will crash.</p>
+    <script>
+        function myFunction() {
+ let val = document.getElementById("tag").value;
+ if(!val){
+    document.getElementById("tag").placeholder = "No tag found";
+ }else{
+ location.href = 'http://localhost:8080/player/?tag='+val;
+}
+}
+    </script>
+    <p>Credits: <a href="https://github.com/taha183">Dark Dare Devil</a> <a href="https://github.com/ViRuSKhanSb">ViRuSKhanSb</a></p>
+</body>
+</html>

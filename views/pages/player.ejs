@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <h2><img src="https://cdn.brawlify.com/profile/<%=player.icon%>.png?v=1" width="40" height="42"> <%= player.name %> </h2>
+    <p>Tag: <%= player.tag %></p>
+    <p>Trophies: <%= player.trophies %></p>
+    <p>Highest Trophies: <%= player.highestTrophies %></p>
+    <p>Level: <%= player.expLevel %></p>
+    <p>Total Brawlers: <%= player.brawlerCount %>/58</p>
+    <h3>Brawlers:</h3>
+    <% for (let i=0; i < player.brawlers.length; i++) { %>
+        
+    <p><img src="https://cdn.brawlify.com/brawler/<%= player.brawlers[i].name %>.png?v=1" height="20px" width="20px"> <%= player.brawlers[i].name %>: <%= player.brawlers[i].power %> Power <%= player.brawlers[i].rank %> Rank <%= player.brawlers[i].trophies %> Trophies </p>
+    <% } %>
+    <p>Credits: <a href="https://github.com/taha183">Dark Dare Devil</a> <a href="https://github.com/ViRuSKhanSb">ViRuSKhanSb</a></p>
+</body>
+</html>
