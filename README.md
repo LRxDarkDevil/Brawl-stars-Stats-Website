@@ -7,4 +7,4 @@ then type node server.js
 Congrats Your web is ready.  
 Go to http://localhost:8080/ and use it.  
 Not for personal use.Only for educational purpose.  
-Thanks to Allah, Me , ViRuSKhanSb  
+Thanks to Allah, Me , ViRuSKhanSb.
