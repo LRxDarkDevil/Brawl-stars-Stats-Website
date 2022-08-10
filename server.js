@@ -7,7 +7,7 @@ let name;
 // use res.render to load up an ejs view file
 // getting profile for tag
 const BrawlStars = require("brawlstars.js")
-const token      = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjA0YzJhMDE1LTVhMGEtNDY2OC05ZmU0LTg5YzNiYjhmMThlNCIsImlhdCI6MTY1ODM5Mzk4MCwic3ViIjoiZGV2ZWxvcGVyL2M3YjdlNWQ4LTIyMzYtNWZkNi01ODI2LWYxYWViN2YxYmU2OSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMTgyLjE4OS4yMDAuNDgiXSwidHlwZSI6ImNsaWVudCJ9XX0.cxaTqsKx2S5PTn2O-I6Z7zqPxp0AFs9zeT-sAr0ZLb4fjqGK3gkM3CgHOuJ5FUevVlthmRNIAJ9krf6SMdaLCQ"
+const token      = "YOUR API KEY HERE" // https://developer.brawlstars.com/#/account
 const client     = new BrawlStars.Client(token)
 
 
