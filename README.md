@@ -12,7 +12,7 @@ Here you can search anyones profile by tag
 - go to line no.10  
 - replace YOUR API KEY HERE with your api key  
 - put key within ""  
-- Go console and type npm install then type node server.js   
+- Go to console and type npm install then type node server.js   
 ### Congrats Your web is ready.  
 Go to http://localhost:8080/ and use it.  
 Not for personal use.Only for educational purpose.  
