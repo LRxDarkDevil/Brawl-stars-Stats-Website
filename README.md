@@ -14,7 +14,7 @@ Here you can search anyones profile by tag
 - put key within ""  
 - Go to console and type npm install then type node server.js   
 ### Congrats Your web is ready.  
-Go to http://localhost:8080/ and use it.  
-Not for personal use.Only for educational purpose.  
+- Go to http://localhost:8080/ and use it.  
+- Only for educational purpose.  
 If you like it, please add a star.  
 Thanks to Allah, Me , ViRuSKhanSb.
