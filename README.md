@@ -17,4 +17,4 @@ Here you can search anyones profile by tag
 - Go to http://localhost:8080/ and use it.  
 - Only for educational purpose.  
 If you like it, please add a star.  
-Thanks to Allah, Me , ViRuSKhanSb.
+I made it back in 2022, No idea if it still works.
